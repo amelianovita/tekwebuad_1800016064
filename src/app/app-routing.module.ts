@@ -8,6 +8,7 @@ import { Praktikum7Component } from './pages/praktikum7/praktikum7.component';
 import { Praktikum8Component } from './pages/praktikum8/praktikum8.component';
 import { Praktikum9Component } from './pages/praktikum9/praktikum9.component';
 import { Praktikum10Component } from './pages/praktikum10/praktikum10.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
 	{
@@ -35,6 +36,9 @@ const routes: Routes = [
 	},	{
 		path:'praktikum10',
 		component:Praktikum10Component
+	},	{
+		path:'home',
+		component:HomeComponent
 	}	
 ];
 
